@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AECC7F11E57F4700092FFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECC7F01E57F4700092FFBB /* AppDelegate.swift */; };
+		3AECC7F31E57F4700092FFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECC7F21E57F4700092FFBB /* ViewController.swift */; };
+		3AECC7F61E57F4700092FFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AECC7F41E57F4700092FFBB /* Main.storyboard */; };
+		3AECC7F91E57F4700092FFBB /* BreezCart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AECC7F71E57F4700092FFBB /* BreezCart.xcdatamodeld */; };
+		3AECC7FB1E57F4700092FFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AECC7FA1E57F4700092FFBB /* Assets.xcassets */; };
+		3AECC7FE1E57F4700092FFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AECC7FC1E57F4700092FFBB /* LaunchScreen.storyboard */; };
+		3AECC8091E57F4700092FFBB /* BreezCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECC8081E57F4700092FFBB /* BreezCartTests.swift */; };
+		3AECC8141E57F4700092FFBB /* BreezCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECC8131E57F4700092FFBB /* BreezCartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AECC8051E57F4700092FFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AECC7E51E57F4700092FFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AECC7EC1E57F4700092FFBB;
+			remoteInfo = BreezCart;
+		};
+		3AECC8101E57F4700092FFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AECC7E51E57F4700092FFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AECC7EC1E57F4700092FFBB;
+			remoteInfo = BreezCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AECC7ED1E57F4700092FFBB /* BreezCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreezCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AECC7F01E57F4700092FFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AECC7F21E57F4700092FFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AECC7F51E57F4700092FFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AECC7F81E57F4700092FFBB /* BreezCart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BreezCart.xcdatamodel; sourceTree = "<group>"; };
+		3AECC7FA1E57F4700092FFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AECC7FD1E57F4700092FFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AECC7FF1E57F4700092FFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AECC8041E57F4700092FFBB /* BreezCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AECC8081E57F4700092FFBB /* BreezCartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezCartTests.swift; sourceTree = "<group>"; };
+		3AECC80A1E57F4700092FFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AECC80F1E57F4700092FFBB /* BreezCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AECC8131E57F4700092FFBB /* BreezCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezCartUITests.swift; sourceTree = "<group>"; };
+		3AECC8151E57F4700092FFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AECC7EA1E57F4700092FFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AECC8011E57F4700092FFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AECC80C1E57F4700092FFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AECC7E41E57F4700092FFBB = {
+			isa = PBXGroup;
+			children = (
+				3AECC7EF1E57F4700092FFBB /* BreezCart */,
+				3AECC8071E57F4700092FFBB /* BreezCartTests */,
+				3AECC8121E57F4700092FFBB /* BreezCartUITests */,
+				3AECC7EE1E57F4700092FFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AECC7EE1E57F4700092FFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AECC7ED1E57F4700092FFBB /* BreezCart.app */,
+				3AECC8041E57F4700092FFBB /* BreezCartTests.xctest */,
+				3AECC80F1E57F4700092FFBB /* BreezCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AECC7EF1E57F4700092FFBB /* BreezCart */ = {
+			isa = PBXGroup;
+			children = (
+				3AECC7F01E57F4700092FFBB /* AppDelegate.swift */,
+				3AECC7F21E57F4700092FFBB /* ViewController.swift */,
+				3AECC7F41E57F4700092FFBB /* Main.storyboard */,
+				3AECC7FA1E57F4700092FFBB /* Assets.xcassets */,
+				3AECC7FC1E57F4700092FFBB /* LaunchScreen.storyboard */,
+				3AECC7FF1E57F4700092FFBB /* Info.plist */,
+				3AECC7F71E57F4700092FFBB /* BreezCart.xcdatamodeld */,
+			);
+			path = BreezCart;
+			sourceTree = "<group>";
+		};
+		3AECC8071E57F4700092FFBB /* BreezCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AECC8081E57F4700092FFBB /* BreezCartTests.swift */,
+				3AECC80A1E57F4700092FFBB /* Info.plist */,
+			);
+			path = BreezCartTests;
+			sourceTree = "<group>";
+		};
+		3AECC8121E57F4700092FFBB /* BreezCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AECC8131E57F4700092FFBB /* BreezCartUITests.swift */,
+				3AECC8151E57F4700092FFBB /* Info.plist */,
+			);
+			path = BreezCartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AECC7EC1E57F4700092FFBB /* BreezCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AECC8181E57F4700092FFBB /* Build configuration list for PBXNativeTarget "BreezCart" */;
+			buildPhases = (
+				3AECC7E91E57F4700092FFBB /* Sources */,
+				3AECC7EA1E57F4700092FFBB /* Frameworks */,
+				3AECC7EB1E57F4700092FFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreezCart;
+			productName = BreezCart;
+			productReference = 3AECC7ED1E57F4700092FFBB /* BreezCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AECC8031E57F4700092FFBB /* BreezCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AECC81B1E57F4700092FFBB /* Build configuration list for PBXNativeTarget "BreezCartTests" */;
+			buildPhases = (
+				3AECC8001E57F4700092FFBB /* Sources */,
+				3AECC8011E57F4700092FFBB /* Frameworks */,
+				3AECC8021E57F4700092FFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AECC8061E57F4700092FFBB /* PBXTargetDependency */,
+			);
+			name = BreezCartTests;
+			productName = BreezCartTests;
+			productReference = 3AECC8041E57F4700092FFBB /* BreezCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AECC80E1E57F4700092FFBB /* BreezCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AECC81E1E57F4700092FFBB /* Build configuration list for PBXNativeTarget "BreezCartUITests" */;
+			buildPhases = (
+				3AECC80B1E57F4700092FFBB /* Sources */,
+				3AECC80C1E57F4700092FFBB /* Frameworks */,
+				3AECC80D1E57F4700092FFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AECC8111E57F4700092FFBB /* PBXTargetDependency */,
+			);
+			name = BreezCartUITests;
+			productName = BreezCartUITests;
+			productReference = 3AECC80F1E57F4700092FFBB /* BreezCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AECC7E51E57F4700092FFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sishir Mohan";
+				TargetAttributes = {
+					3AECC7EC1E57F4700092FFBB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R5A3D347W5;
+						ProvisioningStyle = Automatic;
+					};
+					3AECC8031E57F4700092FFBB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R5A3D347W5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AECC7EC1E57F4700092FFBB;
+					};
+					3AECC80E1E57F4700092FFBB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R5A3D347W5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AECC7EC1E57F4700092FFBB;
+					};
+				};
+			};
+			buildConfigurationList = 3AECC7E81E57F4700092FFBB /* Build configuration list for PBXProject "BreezCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AECC7E41E57F4700092FFBB;
+			productRefGroup = 3AECC7EE1E57F4700092FFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AECC7EC1E57F4700092FFBB /* BreezCart */,
+				3AECC8031E57F4700092FFBB /* BreezCartTests */,
+				3AECC80E1E57F4700092FFBB /* BreezCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AECC7EB1E57F4700092FFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AECC7FE1E57F4700092FFBB /* LaunchScreen.storyboard in Resources */,
+				3AECC7FB1E57F4700092FFBB /* Assets.xcassets in Resources */,
+				3AECC7F61E57F4700092FFBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AECC8021E57F4700092FFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AECC80D1E57F4700092FFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AECC7E91E57F4700092FFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AECC7F31E57F4700092FFBB /* ViewController.swift in Sources */,
+				3AECC7F11E57F4700092FFBB /* AppDelegate.swift in Sources */,
+				3AECC7F91E57F4700092FFBB /* BreezCart.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AECC8001E57F4700092FFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AECC8091E57F4700092FFBB /* BreezCartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AECC80B1E57F4700092FFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AECC8141E57F4700092FFBB /* BreezCartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AECC8061E57F4700092FFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AECC7EC1E57F4700092FFBB /* BreezCart */;
+			targetProxy = 3AECC8051E57F4700092FFBB /* PBXContainerItemProxy */;
+		};
+		3AECC8111E57F4700092FFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AECC7EC1E57F4700092FFBB /* BreezCart */;
+			targetProxy = 3AECC8101E57F4700092FFBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AECC7F41E57F4700092FFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AECC7F51E57F4700092FFBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AECC7FC1E57F4700092FFBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AECC7FD1E57F4700092FFBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AECC8161E57F4700092FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AECC8171E57F4700092FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AECC8191E57F4700092FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R5A3D347W5;
+				INFOPLIST_FILE = BreezCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sishirmohan.BreezCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3AECC81A1E57F4700092FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R5A3D347W5;
+				INFOPLIST_FILE = BreezCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sishirmohan.BreezCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3AECC81C1E57F4700092FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R5A3D347W5;
+				INFOPLIST_FILE = BreezCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sishirmohan.BreezCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreezCart.app/BreezCart";
+			};
+			name = Debug;
+		};
+		3AECC81D1E57F4700092FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R5A3D347W5;
+				INFOPLIST_FILE = BreezCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sishirmohan.BreezCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreezCart.app/BreezCart";
+			};
+			name = Release;
+		};
+		3AECC81F1E57F4700092FFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R5A3D347W5;
+				INFOPLIST_FILE = BreezCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sishirmohan.BreezCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BreezCart;
+			};
+			name = Debug;
+		};
+		3AECC8201E57F4700092FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R5A3D347W5;
+				INFOPLIST_FILE = BreezCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sishirmohan.BreezCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BreezCart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AECC7E81E57F4700092FFBB /* Build configuration list for PBXProject "BreezCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AECC8161E57F4700092FFBB /* Debug */,
+				3AECC8171E57F4700092FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AECC8181E57F4700092FFBB /* Build configuration list for PBXNativeTarget "BreezCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AECC8191E57F4700092FFBB /* Debug */,
+				3AECC81A1E57F4700092FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AECC81B1E57F4700092FFBB /* Build configuration list for PBXNativeTarget "BreezCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AECC81C1E57F4700092FFBB /* Debug */,
+				3AECC81D1E57F4700092FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AECC81E1E57F4700092FFBB /* Build configuration list for PBXNativeTarget "BreezCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AECC81F1E57F4700092FFBB /* Debug */,
+				3AECC8201E57F4700092FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AECC7F71E57F4700092FFBB /* BreezCart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AECC7F81E57F4700092FFBB /* BreezCart.xcdatamodel */,
+			);
+			currentVersion = 3AECC7F81E57F4700092FFBB /* BreezCart.xcdatamodel */;
+			path = BreezCart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AECC7E51E57F4700092FFBB /* Project object */;
+}
